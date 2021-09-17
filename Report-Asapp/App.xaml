@@ -3,6 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Report_Asapp.App">
     <Application.Resources>
+        <OnPlatform x:TypeArguments="x:String" x:Key="RobotoMedium">
+            <On Platform="iOS" Value="Roboto-Medium"/>
+            <On Platform="Android" Value="Roboto-Medium.ttf#Regular"/>
+            <On Platform="UWP" Value="/Assets/Fonts/Roboto-Medium.ttf#Roboto"/>
+        </OnPlatform>
+        <OnPlatform x:TypeArguments="x:String" x:Key="PlayfairDisplaySCBoldItalic">
+            <On Platform="iOS" Value="PlayfairDisplaySC-BoldItalic"/>
+            <On Platform="Android" Value="PlayfairDisplaySC-BoldItalic.ttf#Bold Italic"/>
+            <On Platform="UWP" Value="/Assets/Fonts/PlayfairDisplaySC-BoldItalic.ttf#"/>
+        </OnPlatform>
 
     </Application.Resources>
 </Application>

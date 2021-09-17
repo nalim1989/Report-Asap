@@ -34,5 +34,11 @@
     <string>Report_Asapp</string>
     <key>XSAppIconAssets</key>
     <string>Assets.xcassets/AppIcon.appiconset</string>
+
+  <key>UIAppFonts</key>
+  <array>
+    <string>PlayfairDisplaySC-BoldItalic.ttf</string>
+      <string>Roboto-Medium.ttf</string>
+</array>
 </dict>
 </plist>

@@ -113,6 +113,12 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\rassap.imageset\rassap%403x.jpg" />
+    <ImageAsset Include="Assets.xcassets\rassap.imageset\rassap%402x.jpg" />
+    <ImageAsset Include="Assets.xcassets\rassap.imageset\rassap.jpg" />
+    <ImageAsset Include="Assets.xcassets\rassap.imageset\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -132,5 +138,12 @@
       <Project>{F8510751-BAB1-48B9-A841-C2B0F49CF931}</Project>
       <Name>Report-Asapp</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\PlayfairDisplaySC-BoldItalic.ttf" />
+    <BundleResource Include="Resources\Roboto-Medium.ttf" />
   </ItemGroup>
 </Project>
