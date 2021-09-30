@@ -8,9 +8,9 @@ using Xamarin.Forms;
 
 namespace Report_Asapp
 {
-    public partial class MainPage : ContentPage
+    public partial class WelcomePage : ContentPage
     {
-        public MainPage()
+        public WelcomePage()
         {
             InitializeComponent();
         }
