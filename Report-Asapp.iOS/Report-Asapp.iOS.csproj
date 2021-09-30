@@ -119,6 +119,12 @@
     <ImageAsset Include="Assets.xcassets\rassap.imageset\Contents.json">
       <Visible>False</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\rassap_bckg.imageset\rassap_bckg%403x.png" />
+    <ImageAsset Include="Assets.xcassets\rassap_bckg.imageset\rassap_bckg%402x.png" />
+    <ImageAsset Include="Assets.xcassets\rassap_bckg.imageset\rassap_bckg.png" />
+    <ImageAsset Include="Assets.xcassets\rassap_bckg.imageset\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
