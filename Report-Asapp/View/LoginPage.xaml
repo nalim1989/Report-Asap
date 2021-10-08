@@ -8,8 +8,8 @@
 
     <ContentPage.Content>
         <AbsoluteLayout >
-             <Image Source="rassap_bw" AbsoluteLayout.LayoutBounds="110,80,240,240" AbsoluteLayout.LayoutFlags="None" Aspect="AspectFit" Opacity="0.1"/>
-             <Label Text="REPORT-ASAPP" AbsoluteLayout.LayoutBounds="60,340,300,50" HorizontalTextAlignment="Center" FontFamily="{StaticResource PlayfairDisplaySCBoldItalic}" FontAttributes="Bold, Italic" TextColor="#151B52" FontSize="38" Opacity="0.1"/>
+             <Image Source="rassap_bw" Style="{StaticResource backgroundImageStyle}"/>
+             <Label Style="{StaticResource backgroundTextStyle}" AbsoluteLayout.LayoutBounds="60,340,300,50"  Opacity="0.1"/>
         </AbsoluteLayout>
     </ContentPage.Content>
 

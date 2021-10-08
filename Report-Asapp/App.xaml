@@ -13,6 +13,20 @@
             <On Platform="Android" Value="PlayfairDisplaySC-BoldItalic.ttf#Bold Italic"/>
             <On Platform="UWP" Value="/Assets/Fonts/PlayfairDisplaySC-BoldItalic.ttf#"/>
         </OnPlatform>
-
+        <ResourceDictionary>
+            <Style x:Key="backgroundImageStyle" TargetType="Image">
+                <Setter Property="Aspect" Value="AspectFit" />
+                <Setter Property="Opacity" Value="0.1" />
+                <Setter Property="AbsoluteLayout.LayoutBounds" Value="110,80,240,240" />
+                <Setter Property="AbsoluteLayout.LayoutFlags" Value="None" />
+            </Style>
+            <Style x:Key="backgroundTextStyle" TargetType="Label">
+                 <Setter Property="Text" Value="REPORT-ASAPP" />
+                 <Setter Property="FontAttributes" Value="Bold Italic" />
+                 <Setter Property="TextColor" Value="#151B52" />
+                 <Setter Property="FontSize" Value="38" />
+                 <Setter Property="FontFamily" Value="{DynamicResource PlayfairDisplaySCBoldItalic}" />
+            </Style>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

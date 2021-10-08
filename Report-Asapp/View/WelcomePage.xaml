@@ -23,7 +23,7 @@
     <StackLayout Margin="0,80,0,0">
          <StackLayout>
             <Image Source="rassap_bw" Margin ="50,0,0,0" HeightRequest="240" Aspect="AspectFit"/>
-            <Label Text="REPORT-ASAPP" HorizontalTextAlignment="Center" FontFamily="{StaticResource PlayfairDisplaySCBoldItalic}" FontAttributes="Bold, Italic" TextColor="#151B52" FontSize="38"/>
+            <Label HorizontalTextAlignment="Center" Style="{StaticResource backgroundTextStyle}" />
         </StackLayout>
 
          <StackLayout Margin="0,20,0,0">
