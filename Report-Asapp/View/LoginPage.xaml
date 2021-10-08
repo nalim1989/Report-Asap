@@ -3,8 +3,14 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="ReportAsapp.View.LoginPage"
+    BackgroundColor="#D5D6D2"
     Title="Login">
+
     <ContentPage.Content>
-        <Label>Ovo je Login</Label>
+        <AbsoluteLayout >
+             <Image Source="rassap_bw" AbsoluteLayout.LayoutBounds="110,80,240,240" AbsoluteLayout.LayoutFlags="None" Aspect="AspectFit" Opacity="0.1"/>
+             <Label Text="REPORT-ASAPP" AbsoluteLayout.LayoutBounds="60,340,300,50" HorizontalTextAlignment="Center" FontFamily="{StaticResource PlayfairDisplaySCBoldItalic}" FontAttributes="Bold, Italic" TextColor="#151B52" FontSize="38" Opacity="0.1"/>
+        </AbsoluteLayout>
     </ContentPage.Content>
+
 </ContentPage>
