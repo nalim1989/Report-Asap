@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using ReportAsapp.View.Configuration;
 using Xamarin.Forms;
 
 namespace ReportAsapp.View
@@ -10,6 +10,8 @@ namespace ReportAsapp.View
         public RegisterPage()
         {
             InitializeComponent();
+
+            NavigationConfig.configure(this);
         }
     }
 }
