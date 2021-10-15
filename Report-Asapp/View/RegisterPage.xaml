@@ -2,8 +2,12 @@
 <ContentPage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="ReportAsapp.View.RegisterPage">
+    x:Class="ReportAsapp.View.RegisterPage"
+    Title="Register">
+
     <ContentPage.Content>
-        <Label>Ovo je register</Label>
+          <AbsoluteLayout >
+            <ContentView Content="{Binding BackgroundTemplate}" AbsoluteLayout.LayoutBounds="0,0,0,0"  AbsoluteLayout.LayoutFlags="None" />
+          </AbsoluteLayout>
     </ContentPage.Content>
 </ContentPage>

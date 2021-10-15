@@ -3,13 +3,30 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="ReportAsapp.View.LoginPage"
-    BackgroundColor="#D5D6D2"
-    Title="Login">
+    BackgroundColor="#ADB3C0"
+    Title="Login" xmlns:custom="clr-namespace:ReportAsapp.View.Custom">
 
     <ContentPage.Content>
-        <AbsoluteLayout >
+        <AbsoluteLayout>
              <Image Source="rassap_bw" Style="{StaticResource backgroundImageStyle}"/>
              <Label Style="{StaticResource backgroundTextStyle}" AbsoluteLayout.LayoutBounds="60,340,300,50"  Opacity="0.1"/>
+
+            <Label Style="{StaticResource labelStyle}" AbsoluteLayout.LayoutBounds="40,230,200,50" Opacity="0.9">Email:</Label>
+
+            <Label Style="{StaticResource labelStyle}" AbsoluteLayout.LayoutBounds="40,500,200,50" Opacity="0.9">Password:</Label>
+
+            <custom:CustomEntry
+                             AbsoluteLayout.LayoutBounds="40,268,320,50"
+                             BackgroundColor="#3A5199"
+                             BorderRadius="20"  
+                             HorizontalTextAlignment="Center"  
+                             FontSize="18"  
+                             HeightRequest="40"  
+                             TextColor="White"  
+                             FontAttributes="Bold"  
+                             WidthRequest="320"
+                             Opacity="0.8"/>  
+
         </AbsoluteLayout>
     </ContentPage.Content>
 

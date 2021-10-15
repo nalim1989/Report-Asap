@@ -18,10 +18,12 @@
     <None Remove="ViewModel\" />
     <None Remove="View\" />
     <None Remove="View\Configuration\" />
+    <None Remove="View\Custom\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ViewModel\" />
     <Folder Include="View\" />
     <Folder Include="View\Configuration\" />
+    <Folder Include="View\Custom\" />
   </ItemGroup>
 </Project>

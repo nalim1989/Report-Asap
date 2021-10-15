@@ -27,6 +27,13 @@
                  <Setter Property="FontSize" Value="38" />
                  <Setter Property="FontFamily" Value="{DynamicResource PlayfairDisplaySCBoldItalic}" />
             </Style>
+            <Style x:Key="labelStyle" TargetType="Label">
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="TextColor" Value="#151B52" />
+                <Setter Property="FontSize" Value="22" />
+                <Setter Property="Opacity" Value="0.8" />
+                <Setter Property="FontFamily"   Value="{DynamicResource RobotoMedium}" />
+            </Style>
         </ResourceDictionary>
     </Application.Resources>
 </Application>
