@@ -3,11 +3,33 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="ReportAsapp.View.RegisterPage"
-    Title="Register">
+    BackgroundColor="#ADB3C0"
+    Title="Register" xmlns:custom="clr-namespace:ReportAsapp.View.Custom">
 
     <ContentPage.Content>
           <AbsoluteLayout >
-            <ContentView Content="{Binding BackgroundTemplate}" AbsoluteLayout.LayoutBounds="0,0,0,0"  AbsoluteLayout.LayoutFlags="None" />
+             <Image Source="rassap_bw" Style="{StaticResource backgroundImageStyle}"/>
+             <Label Style="{StaticResource backgroundTextStyle}" AbsoluteLayout.LayoutBounds="60,340,300,50"  Opacity="0.1"/>
+
+             <Label Style="{StaticResource labelStyle}" AbsoluteLayout.LayoutBounds="40,30,200,50" Opacity="0.9">First name:</Label>
+             <custom:CustomEntry AbsoluteLayout.LayoutBounds="40,58,320,50" Style="{StaticResource insertEntryStyle}"/>  
+
+             <Label Style="{StaticResource labelStyle}" AbsoluteLayout.LayoutBounds="40,110,200,50" Opacity="0.9">Last name:</Label>
+             <custom:CustomEntry AbsoluteLayout.LayoutBounds="40,138,320,50" Style="{StaticResource insertEntryStyle}"/>
+
+             <Label Style="{StaticResource labelStyle}" AbsoluteLayout.LayoutBounds="40,190,200,50" Opacity="0.9">Job occupation:</Label>
+             <custom:CustomEntry AbsoluteLayout.LayoutBounds="40,218,320,50" Style="{StaticResource insertEntryStyle}"/>
+
+             <Label Style="{StaticResource labelStyle}" AbsoluteLayout.LayoutBounds="40,280,200,50" Opacity="0.9">Email:</Label>
+             <custom:CustomEntry AbsoluteLayout.LayoutBounds="40,308,320,50" Style="{StaticResource insertEntryStyle}"/>
+
+             <Label Style="{StaticResource labelStyle}" AbsoluteLayout.LayoutBounds="40,360,200,50" Opacity="0.9">Password:</Label>
+             <custom:CustomEntry AbsoluteLayout.LayoutBounds="40,388,320,50" Style="{StaticResource insertEntryStyle}" IsPassword="True"/>
+
+             <Label Style="{StaticResource labelStyle}" AbsoluteLayout.LayoutBounds="40,450,200,50" Opacity="0.9">Repeat password:</Label>
+             <custom:CustomEntry AbsoluteLayout.LayoutBounds="40,478,320,50" Style="{StaticResource insertEntryStyle}" IsPassword="True"/>
+
+             <Button Text="REGISTER" Style="{StaticResource buttonStyle}" AbsoluteLayout.LayoutBounds="130,550,150,50"  />
           </AbsoluteLayout>
     </ContentPage.Content>
 </ContentPage>

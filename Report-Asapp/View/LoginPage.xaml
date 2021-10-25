@@ -11,21 +11,13 @@
              <Image Source="rassap_bw" Style="{StaticResource backgroundImageStyle}"/>
              <Label Style="{StaticResource backgroundTextStyle}" AbsoluteLayout.LayoutBounds="60,340,300,50"  Opacity="0.1"/>
 
-            <Label Style="{StaticResource labelStyle}" AbsoluteLayout.LayoutBounds="40,230,200,50" Opacity="0.9">Email:</Label>
+             <Label Style="{StaticResource labelStyle}" AbsoluteLayout.LayoutBounds="40,120,200,50" Opacity="0.9">Email:</Label>
+             <custom:CustomEntry AbsoluteLayout.LayoutBounds="40,148,320,50" Style="{StaticResource insertEntryStyle}"/>  
 
-            <Label Style="{StaticResource labelStyle}" AbsoluteLayout.LayoutBounds="40,500,200,50" Opacity="0.9">Password:</Label>
+             <Label Style="{StaticResource labelStyle}" AbsoluteLayout.LayoutBounds="40,250,200,50" Opacity="0.9">Password:</Label>
+             <custom:CustomEntry AbsoluteLayout.LayoutBounds="40,278,320,50" Style="{StaticResource insertEntryStyle}" IsPassword="True"/>
 
-            <custom:CustomEntry
-                             AbsoluteLayout.LayoutBounds="40,268,320,50"
-                             BackgroundColor="#3A5199"
-                             BorderRadius="20"  
-                             HorizontalTextAlignment="Center"  
-                             FontSize="18"  
-                             HeightRequest="40"  
-                             TextColor="White"  
-                             FontAttributes="Bold"  
-                             WidthRequest="320"
-                             Opacity="0.8"/>  
+            <Button Text="LOGIN" Style="{StaticResource buttonStyle}" AbsoluteLayout.LayoutBounds="130,400,150,50"  />
 
         </AbsoluteLayout>
     </ContentPage.Content>
