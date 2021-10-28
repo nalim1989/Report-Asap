@@ -29,7 +29,7 @@
              <Label Style="{StaticResource labelStyle}" AbsoluteLayout.LayoutBounds="40,450,200,50" Opacity="0.9">Repeat password:</Label>
              <custom:CustomEntry AbsoluteLayout.LayoutBounds="40,478,320,50" Style="{StaticResource insertEntryStyle}" IsPassword="True"/>
 
-             <Button Text="REGISTER" Style="{StaticResource buttonStyle}" AbsoluteLayout.LayoutBounds="130,550,150,50"  />
+             <Button Text="REGISTER" Style="{StaticResource buttonStyle}" AbsoluteLayout.LayoutBounds="130,550,150,50"  Command="{Binding RegisterCommand}" />
           </AbsoluteLayout>
     </ContentPage.Content>
 </ContentPage>

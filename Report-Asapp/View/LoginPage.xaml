@@ -17,7 +17,7 @@
              <Label Style="{StaticResource labelStyle}" AbsoluteLayout.LayoutBounds="40,250,200,50" Opacity="0.9">Password:</Label>
              <custom:CustomEntry AbsoluteLayout.LayoutBounds="40,278,320,50" Style="{StaticResource insertEntryStyle}" IsPassword="True"/>
 
-            <Button Text="LOGIN" Style="{StaticResource buttonStyle}" AbsoluteLayout.LayoutBounds="130,400,150,50"  />
+            <Button Text="LOGIN" Style="{StaticResource buttonStyle}" AbsoluteLayout.LayoutBounds="130,400,150,50" Command="{Binding LoginCommand}" />
 
         </AbsoluteLayout>
     </ContentPage.Content>
