@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Report_Asapp.WelcomePage"
+             BackgroundColor="#3A5199"
+             NavigationPage.HasNavigationBar="false"
+    >
+
+     <ContentPage.Resources>
+        <ResourceDictionary>
+             <Style x:Key="loginButtons" TargetType="Button">
+                <Setter Property = "BackgroundColor" Value="#2F2E33" />
+                <Setter Property = "CornerRadius" Value="12" />
+                <Setter Property = "TextColor"  Value="White" />
+                <Setter Property = "FontSize"  Value="30" />
+                <Setter Property = "FontFamily"  Value="{StaticResource RobotoMedium}" />
+                <Setter Property = "Margin"  Value="50,20,50,0" />
+                <Setter Property = "HeightRequest"  Value="60" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+    <StackLayout Margin="0,80,0,0">
+         <StackLayout>
+            <Image Source="rassap_bw" Margin ="50,0,0,0" HeightRequest="240" Aspect="AspectFit"/>
+            <Label Text="REPORT-ASAPP" HorizontalTextAlignment="Center" FontFamily="{StaticResource PlayfairDisplaySCBoldItalic}" FontAttributes="Bold, Italic" TextColor="#151B52" FontSize="38"/>
+        </StackLayout>
+
+         <StackLayout Margin="0,20,0,0">
+             <Button Text="LOGIN" Style="{StaticResource loginButtons}" Command="{Binding LoginCommand}" />
+             <Button Text="REGISTRATION" Style="{StaticResource loginButtons}" Command="{Binding RegisterCommand}"/>
+         </StackLayout>
+    </StackLayout>
+
+</ContentPage>
