@@ -2,8 +2,27 @@
 <ContentPage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="ReportAsapp.View.InventoryPage">
+    x:Class="ReportAsapp.View.InventoryPage"
+    BackgroundColor="#3A5199"
+    NavigationPage.HasNavigationBar="false">
+
     <ContentPage.Content>
-        
+        <StackLayout Margin="0,80,0,0">
+         <StackLayout>
+             <Button Text="NEW REPORT" Style="{StaticResource buttonStyle}"/>
+        </StackLayout>
+
+         <StackLayout Margin="0,20,0,0">
+            <Button Text="INVENTORY" Style="{StaticResource buttonStyle}"/>
+         </StackLayout>
+
+         <StackLayout Margin="0,20,0,0">
+            <Button Text="IMPORT/EXPORT" Style="{StaticResource buttonStyle}"/>
+         </StackLayout>
+
+         <StackLayout Margin="0,20,0,0">
+            <Button Text="ADVERSITMENTS" Style="{StaticResource buttonStyle}"/>
+         </StackLayout>
+    </StackLayout>
     </ContentPage.Content>
 </ContentPage>
