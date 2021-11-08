@@ -27,8 +27,8 @@
         </StackLayout>
 
          <StackLayout Margin="0,20,0,0">
-             <Button Text="LOGIN" Style="{StaticResource loginButtons}" Command="{Binding LoginCommand}"/>
-             <Button Text="REGISTRATION" Style="{StaticResource loginButtons}" Command="{Binding RegisterCommand}"/>
+             <Button Text="LOGIN" Style="{StaticResource mainButtonStyle}" Command="{Binding LoginCommand}"/>
+             <Button Text="REGISTRATION" Style="{StaticResource mainButtonStyle}" Command="{Binding RegisterCommand}"/>
          </StackLayout>
     </StackLayout>
 

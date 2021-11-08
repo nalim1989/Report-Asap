@@ -7,21 +7,21 @@
     NavigationPage.HasNavigationBar="false">
 
     <ContentPage.Content>
-        <StackLayout Margin="0,80,0,0">
+        <StackLayout Margin="10,50,10,0">
          <StackLayout>
-             <Button Text="NEW REPORT" Style="{StaticResource buttonStyle}"/>
+             <Button Text="NEW REPORT" HeightRequest="70" Style="{StaticResource mainButtonStyle}"/>
         </StackLayout>
 
-         <StackLayout Margin="0,20,0,0">
-            <Button Text="INVENTORY" Style="{StaticResource buttonStyle}"/>
+         <StackLayout Margin="0,50,0,0">
+            <Button Text="INVENTORY" HeightRequest="70" Style="{StaticResource mainButtonStyle}"/>
          </StackLayout>
 
-         <StackLayout Margin="0,20,0,0">
-            <Button Text="IMPORT/EXPORT" Style="{StaticResource buttonStyle}"/>
+         <StackLayout Margin="0,50,0,0">
+            <Button Text="IMPORT/EXPORT" HeightRequest="70" Style="{StaticResource mainButtonStyle}"/>
          </StackLayout>
 
-         <StackLayout Margin="0,20,0,0">
-            <Button Text="ADVERSITMENTS" Style="{StaticResource buttonStyle}"/>
+         <StackLayout Margin="0,50,0,0">
+            <Button Text="ADVERTISEMENTS" HeightRequest="70" Style="{StaticResource mainButtonStyle}"/>
          </StackLayout>
     </StackLayout>
     </ContentPage.Content>
