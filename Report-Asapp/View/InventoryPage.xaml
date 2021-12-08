@@ -9,7 +9,7 @@
     <ContentPage.Content>
         <StackLayout Margin="10,50,10,0">
          <StackLayout>
-             <Button Text="NEW REPORT" HeightRequest="70" Style="{StaticResource mainButtonStyle}"/>
+             <Button Text="NEW REPORT" HeightRequest="70" Style="{StaticResource mainButtonStyle}" Command="{Binding NewProjectCommand}"/>
         </StackLayout>
 
          <StackLayout Margin="0,50,0,0">
