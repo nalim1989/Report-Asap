@@ -7,7 +7,7 @@
     NavigationPage.HasNavigationBar="false">
 
     <ContentPage.Content>
-        <StackLayout Margin="10,50,10,0">
+        <StackLayout Margin="10,90,10,0">
          <StackLayout>
              <Button Text="NEW REPORT" HeightRequest="70" Style="{StaticResource mainButtonStyle}" Command="{Binding NewProjectCommand}"/>
         </StackLayout>
@@ -20,7 +20,7 @@
             <Button Text="IMPORT/EXPORT" HeightRequest="70" Style="{StaticResource mainButtonStyle}"/>
          </StackLayout>
 
-         <StackLayout Margin="0,50,0,0">
+         <StackLayout Margin="0,50,0,20">
             <Button Text="ADVERTISEMENTS" HeightRequest="70" Style="{StaticResource mainButtonStyle}"/>
          </StackLayout>
     </StackLayout>

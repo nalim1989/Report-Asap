@@ -14,22 +14,22 @@
              <Label Style="{StaticResource labelStyle}" AbsoluteLayout.LayoutBounds="40,30,200,50" Opacity="0.9">First name:</Label>
              <custom:CustomEntry AbsoluteLayout.LayoutBounds="40,58,320,50" Style="{StaticResource insertEntryStyle}"/>  
 
-             <Label Style="{StaticResource labelStyle}" AbsoluteLayout.LayoutBounds="40,110,200,50" Opacity="0.9">Last name:</Label>
-             <custom:CustomEntry AbsoluteLayout.LayoutBounds="40,138,320,50" Style="{StaticResource insertEntryStyle}"/>
+             <Label Style="{StaticResource labelStyle}" AbsoluteLayout.LayoutBounds="40,120,200,50" Opacity="0.9">Last name:</Label>
+             <custom:CustomEntry AbsoluteLayout.LayoutBounds="40,148,320,50" Style="{StaticResource insertEntryStyle}"/>
 
-             <Label Style="{StaticResource labelStyle}" AbsoluteLayout.LayoutBounds="40,190,200,50" Opacity="0.9">Job occupation:</Label>
-             <custom:CustomEntry AbsoluteLayout.LayoutBounds="40,218,320,50" Style="{StaticResource insertEntryStyle}"/>
+             <Label Style="{StaticResource labelStyle}" AbsoluteLayout.LayoutBounds="40,210,200,50" Opacity="0.9">Job occupation:</Label>
+             <custom:CustomEntry AbsoluteLayout.LayoutBounds="40,238,320,50" Style="{StaticResource insertEntryStyle}"/>
 
-             <Label Style="{StaticResource labelStyle}" AbsoluteLayout.LayoutBounds="40,280,200,50" Opacity="0.9">Email:</Label>
-             <custom:CustomEntry AbsoluteLayout.LayoutBounds="40,308,320,50" Style="{StaticResource insertEntryStyle}"/>
+             <Label Style="{StaticResource labelStyle}" AbsoluteLayout.LayoutBounds="40,300,200,50" Opacity="0.9">Email:</Label>
+             <custom:CustomEntry AbsoluteLayout.LayoutBounds="40,328,320,50" Style="{StaticResource insertEntryStyle}"/>
 
-             <Label Style="{StaticResource labelStyle}" AbsoluteLayout.LayoutBounds="40,360,200,50" Opacity="0.9">Password:</Label>
-             <custom:CustomEntry AbsoluteLayout.LayoutBounds="40,388,320,50" Style="{StaticResource insertEntryStyle}" IsPassword="True"/>
+             <Label Style="{StaticResource labelStyle}" AbsoluteLayout.LayoutBounds="40,380,200,50" Opacity="0.9">Password:</Label>
+             <custom:CustomEntry AbsoluteLayout.LayoutBounds="40,408,320,50" Style="{StaticResource insertEntryStyle}" IsPassword="True"/>
 
-             <Label Style="{StaticResource labelStyle}" AbsoluteLayout.LayoutBounds="40,450,200,50" Opacity="0.9">Repeat password:</Label>
-             <custom:CustomEntry AbsoluteLayout.LayoutBounds="40,478,320,50" Style="{StaticResource insertEntryStyle}" IsPassword="True"/>
+             <Label Style="{StaticResource labelStyle}" AbsoluteLayout.LayoutBounds="40,470,200,50" Opacity="0.9">Repeat password:</Label>
+             <custom:CustomEntry AbsoluteLayout.LayoutBounds="40,498,320,50" Style="{StaticResource insertEntryStyle}" IsPassword="True"/>
 
-             <Button Text="REGISTER" Style="{StaticResource buttonStyle}" AbsoluteLayout.LayoutBounds="130,550,150,50"  Command="{Binding RegisterCommand}" />
+             <Button Text="REGISTER" Style="{StaticResource buttonStyle}" AbsoluteLayout.LayoutBounds="130,570,150,50"  Command="{Binding RegisterCommand}" />
           </AbsoluteLayout>
     </ContentPage.Content>
 </ContentPage>
