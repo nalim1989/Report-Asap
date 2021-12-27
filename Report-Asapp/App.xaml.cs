@@ -1,5 +1,7 @@
 ﻿using System;
+using Report_Asapp.Database;
 using Xamarin.Forms;
+using Xamarin.Forms.Shapes;
 using Xamarin.Forms.Xaml;
 
 namespace Report_Asapp
@@ -23,6 +25,20 @@ namespace Report_Asapp
 
         protected override void OnResume()
         {
+        }
+        
+        static DatabaseService database;
+ 
+        public static DatabaseService Database
+        {
+            get
+            {
+                if (database == null)
+                {
+                    database = new DatabaseService(System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "ReportsAppDb.db3"));
+                }
+                return database;
+            }
         }
     }
 }
