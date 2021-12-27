@@ -10,19 +10,16 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Margin ="30,30,30,0" Style="{StaticResource labelStyle}">• Project:</Label>
-            <custom:CustomEntry Margin ="30,0,30,0" HeightRequest="50" Style="{StaticResource insertEntryStyle}"/>  
-            
-            <Label Margin ="30,20,10,0" Style="{StaticResource labelStyle}">• Subproject:</Label>
-            <custom:CustomEntry Margin ="30,0,30,0" HeightRequest="50" Style="{StaticResource insertEntryStyle}"/> 
+            <custom:CustomEntry Margin ="30,0,30,0" HeightRequest="50" Style="{StaticResource insertEntryStyle}" Text="{Binding ProjectModel.ProjectName}" /> 
             
             <Label Margin ="30,20,10,0" Style="{StaticResource labelStyle}">• Investor:</Label>
-            <custom:CustomEntry Margin ="30,0,30,0" HeightRequest="50" Style="{StaticResource insertEntryStyle}"/> 
+            <custom:CustomEntry Margin ="30,0,30,0" HeightRequest="50" Style="{StaticResource insertEntryStyle}" Text="{Binding ProjectModel.Investor}" /> 
             
             <Label Margin ="30,20,10,0" Style="{StaticResource labelStyle}">• Contractor:</Label>
-            <custom:CustomEntry Margin ="30,0,30,0" HeightRequest="50" Style="{StaticResource insertEntryStyle}"/> 
+            <custom:CustomEntry Margin ="30,0,30,0" HeightRequest="50" Style="{StaticResource insertEntryStyle}" Text="{Binding ProjectModel.Contractor}" /> 
             
             <Label Margin ="30,20,10,0" Style="{StaticResource labelStyle}">• Supervisor:</Label>
-            <custom:CustomEntry Margin ="30,0,30,0" HeightRequest="50" Style="{StaticResource insertEntryStyle}"/> 
+            <custom:CustomEntry Margin ="30,0,30,0" HeightRequest="50" Style="{StaticResource insertEntryStyle}" Text="{Binding ProjectModel.Supervisor}" /> 
             
             <Button Text="CREATE" Margin ="70,60,70,0" HeightRequest="60" Style="{StaticResource mainButtonStyle}" Command="{Binding CreateProjectCommand}"/>
             

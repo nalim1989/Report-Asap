@@ -1,3 +1,4 @@
+using Report_Asapp.Model;
 using SQLite;
 
 namespace Report_Asapp.Database.Model
@@ -10,5 +11,17 @@ namespace Report_Asapp.Database.Model
           public string Investor { get; set; }
           public string Contractor { get; set; }
           public string Supervisor { get; set; }
+
+          public ProjectDb()
+          {
+          }
+
+          public ProjectDb(ProjectModel project)
+          {
+              this.ProjectName = project.ProjectName;
+              this.Investor = project.Investor;
+              this.Supervisor = project.Supervisor;
+              this.Contractor = project.Contractor;
+          }
     }
 }

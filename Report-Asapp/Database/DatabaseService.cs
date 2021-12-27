@@ -17,25 +17,25 @@ namespace Report_Asapp.Database
          }
                         
                     // Show the project
-                    public Task<List<ProjectDb>> GetPeopleAsync()
+                    public Task<List<ProjectDb>> GetProjectsAsync()
                     {
                         return _database.Table<ProjectDb>().ToListAsync();
                     }
         
                     // Save project
-                    public Task<int> SavePersonAsync(ProjectDb project)
+                    public Task<int> SaveProjectAsync(ProjectDb project)
                     {
                         return _database.InsertAsync(project);
                     }
         
                     // Delete project
-                    public Task<int> DeletePersonAsync(ProjectDb project)
+                    public Task<int> DeleteProjectAsync(ProjectDb project)
                     {
                         return _database.DeleteAsync(project);
                     }
         
                     // Save project
-                    public Task<int> UpdatePersonAsync(ProjectDb project)
+                    public Task<int> UpdateProjectAsync(ProjectDb project)
                     {
                         return _database.UpdateAsync(project);
                     }
