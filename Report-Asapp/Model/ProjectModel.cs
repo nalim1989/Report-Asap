@@ -1,3 +1,4 @@
+using System;
 using Report_Asapp.Database.Model;
 
 namespace Report_Asapp.Model
