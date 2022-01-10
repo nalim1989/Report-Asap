@@ -19,5 +19,10 @@ namespace ReportAsapp
             newProjectViewModel = new NewProjectViewModel();
             BindingContext = newProjectViewModel;
         }
+
+        protected override void OnAppearing()
+        {
+            newProjectViewModel.reloadData();
+        }
     }
 }

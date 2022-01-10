@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using ReportAsapp.Logic;
 using ReportAsapp.View.Configuration;
 using ReportAsapp.ViewModel;
 using Xamarin.Forms;
@@ -10,13 +11,13 @@ namespace ReportAsapp.View
     {
         
         private CreateProjectViewModel createProjectViewModel;
-        public CreateProjectPage()
+        public CreateProjectPage(ProjectLogic projectLogic)
         {
             InitializeComponent();
             
             NavigationConfig.configure(this);
 
-            createProjectViewModel = new CreateProjectViewModel();
+            createProjectViewModel = new CreateProjectViewModel(projectLogic);
             BindingContext = createProjectViewModel;
         }
     }

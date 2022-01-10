@@ -11,18 +11,19 @@ namespace ReportAsapp.ViewModel
         public ProjectModel ProjectModel { get; set; }
         public ICommand CreateProjectCommand { private set; get; }
 
-        private CreateProjectLogic _logic;
+        private ProjectLogic _logic;
 
-        public CreateProjectViewModel()
+        public CreateProjectViewModel(ProjectLogic projectLogic)
         {
             this.ProjectModel = new ProjectModel();
             CreateProjectCommand = new Command(() => CreateProject());
-            _logic = new CreateProjectLogic();
+            _logic = projectLogic;
         }
         
         private async void CreateProject()
         {
             _logic.saveProject(this.ProjectModel);
+            await Application.Current.MainPage.Navigation.PopAsync();
         }
     }
 }
