@@ -19,11 +19,11 @@
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <Grid BackgroundColor="Black">
+                            <Grid BackgroundColor="White">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="1*" />
                                 </Grid.ColumnDefinitions>
-                                <Label Grid.Column="0" Text ="{Binding ProjectName}" HorizontalOptions="Fill" BackgroundColor="Green" HorizontalTextAlignment="Center" Margin="1"></Label>
+                                <Button Grid.Column="0" Style="{StaticResource mainButtonStyle}" Text ="{Binding ProjectName}"  HeightRequest="60" Margin="5"></Button>
                             </Grid>
                         </ViewCell>
                     </DataTemplate>
